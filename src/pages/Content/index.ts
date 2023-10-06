@@ -17,7 +17,7 @@ const isCanvas = document
 /* Standardizes school-specific CSS class choices so the sidebar works/looks right. */
 function prepareCanvasStyles() {
   /* Ensures that there is no max-width, so sidebar stays at right side on large screens. */
-  document.body.classList.add('full-width');
+  // document.body.classList.add('full-width');
 }
 
 function runAppUsingOptions(container: HTMLElement, data: Options) {
